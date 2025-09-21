@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  chroma:
+    image: chromadb/chroma
+    container_name: chroma-db
+    volumes:
+      - ./chroma-data:/data
+    ports:
+      - "8000:8123"
+    environment:
+      - CHROMA_SERVER_NO_ANONYMIZED_TELEMETRY=True # Optional: Disable telemetry
+    restart: unless-stopped
+
+  backend:
+    build: .
+    container_name: ai-assistant
+    env_file:
+      - .env
+    ports:
+      - "8001:8001"
+    volumes:
+      - .:/app
+      - /app/__pycache__
+      - pip_cache:/root/.cache/pip
+      - python_packages:/usr/local/lib/python3.11/site-packages
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+      - CHROMA_HOST=chroma
+      - CHROMA_PORT=8123
+      - CHROMA_URL=http://chroma:8123
+    restart: unless-stopped
+    depends_on:
+      - chroma
+
+volumes:
+  pip_cache:
+  python_packages:
+
+networks:
+  app-network:
+    driver: bridge
