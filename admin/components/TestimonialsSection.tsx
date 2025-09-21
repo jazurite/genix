@@ -11,7 +11,7 @@ export function TestimonialsSection() {
             #1 RFP response software loved by customers
           </h2>
           <p className="max-w-[800px] text-muted-foreground md:text-xl">
-            See how companies like yours are saving time and winning more deals with AutoRFP
+            See how companies like yours are saving time and winning more deals with Genix Admin
           </p>
         </div>
 
@@ -37,7 +37,7 @@ export function TestimonialsSection() {
                     ))}
                   </div>
                   <blockquote className="text-lg font-medium">
-                    "For every $1 that our company invests in AutoRFP, I estimate a return on investment of $500. We have seen really massive growth over the past few years and we couldn't have done it without AutoRFP."
+                    "For every $1 that our company invests in Genix Admin, I estimate a return on investment of $500. We have seen really massive growth over the past few years and we couldn't have done it without Genix Admin."
                   </blockquote>
                 </div>
                 <div className="flex items-center space-x-4">

@@ -9,7 +9,7 @@ function QuestionsLoadingFallback() {
     <div className="flex flex-col min-h-screen">
       <header className="border-b bg-white">
         <div className="container flex h-16 p-4 items-center">
-          <div className="font-bold text-xl">AutoRFP</div>
+          <div className="font-bold text-xl">Genix Admin</div>
         </div>
       </header>
       <main className="flex-1 bg-slate-50 flex items-center justify-center">

@@ -93,7 +93,7 @@ export function AISection() {
                 </div>
               </li>
             </ul>
-            <Button size="lg">Learn about AutoRFP AI</Button>
+            <Button size="lg">Learn about Genix Admin AI</Button>
           </div>
           <div className="relative h-[450px] w-full rounded-lg bg-gradient-to-br from-primary/20 via-primary/10 to-background p-4">
             <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">

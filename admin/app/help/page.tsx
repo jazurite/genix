@@ -28,7 +28,7 @@ export default function HelpPage() {
         <div className="container mx-auto px-4 py-8">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl font-bold">AutoRFP Help Center</h1>
+              <h1 className="text-3xl font-bold">Genix Admin Help Center</h1>
               <p className="text-muted-foreground mt-2">
                 Learn how to automate your RFP responses with AI-powered document processing
               </p>

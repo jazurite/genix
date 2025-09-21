@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="font-bold text-xl mb-4 inline-block">
-              AutoRFP
+              Genix Admin
             </Link>
             <p className="text-sm text-muted-foreground mb-4">
               The leader in AI-powered RFP response software.
@@ -133,7 +133,7 @@ export function Footer() {
         </div>
         <div className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            © 2023 AutoRFP. All rights reserved.
+            © 2023 Genix Admin. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground">
             <Link href="#" className="hover:text-foreground">Terms</Link>

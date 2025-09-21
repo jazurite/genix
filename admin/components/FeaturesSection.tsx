@@ -10,7 +10,7 @@ export function FeaturesSection() {
             The AI platform for every team in your organization
           </h2>
           <p className="max-w-[800px] text-muted-foreground md:text-xl">
-            Discover how AutoRFP can help different teams in your organization respond to RFPs faster and more effectively.
+            Discover how Genix Admin can help different teams in your organization respond to RFPs faster and more effectively.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export function FeaturesSection() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold">Proposal & Bid Managers</h3>
                 <p className="text-muted-foreground">
-                  AutoRFP AI drafts your answers and manages collaborative workflows so you can deliver winning responses to RFPs, questionnaires, and assessments 80% faster.
+                  Genix Admin AI drafts your answers and manages collaborative workflows so you can deliver winning responses to RFPs, questionnaires, and assessments 80% faster.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center">

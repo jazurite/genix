@@ -1,6 +1,6 @@
-# AutoRFP - AI-Powered RFP Response Platform
+# Genix Admin - AI-Powered RFP Response Platform
 
-AutoRFP is an intelligent platform that automates RFP (Request for Proposal) response generation using advanced AI. Built with Next.js 15 and powered by LlamaIndex, it helps organizations respond to RFPs 80% faster by automatically extracting questions from documents and generating contextual responses based on your knowledge base.
+Genix Admin is an intelligent platform that automates RFP (Request for Proposal) response generation using advanced AI. Built with Next.js 15 and powered by LlamaIndex, it helps organizations respond to RFPs 80% faster by automatically extracting questions from documents and generating contextual responses based on your knowledge base.
 
 ## ✨ Features
 
@@ -40,7 +40,7 @@ AutoRFP is an intelligent platform that automates RFP (Request for Proposal) res
 
 ## 📋 Prerequisites
 
-Before setting up AutoRFP, ensure you have:
+Before setting up Genix Admin, ensure you have:
 
 - **Node.js** 18.x or later
 - **pnpm** 8.x or later
@@ -329,9 +329,6 @@ pnpm type-check
 pnpm lint
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -344,8 +341,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Documentation**: Check this README and inline code comments
-- **Issues**: Report bugs and feature requests via GitHub Issues
-- **Community**: Join our discussions for help and feature requests
 
 ---
 

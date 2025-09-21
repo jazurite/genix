@@ -21,7 +21,7 @@ export function UploadSection({
       <div className="flex flex-col items-center space-y-8">
         {/* Welcome Section */}
         <div className="text-center space-y-2">
-          <p className="text-muted-foreground">Welcome to AutoRFP</p>
+          <p className="text-muted-foreground">Welcome to Genix Admin</p>
           <h2 className="text-2xl font-semibold">Get started by adding sections to the project.</h2>
         </div>
         

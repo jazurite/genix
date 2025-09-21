@@ -22,7 +22,7 @@ export function StatsSection() {
             <div className="flex flex-col items-center p-6 bg-background rounded-lg shadow-sm">
               <div className="text-5xl font-bold">10+</div>
               <div className="text-sm text-muted-foreground mt-2">
-                of the Fortune 500 use AutoRFP
+                of the Fortune 500 use Genix Admin
               </div>
             </div>
             <div className="flex flex-col items-center p-6 bg-background rounded-lg shadow-sm">
